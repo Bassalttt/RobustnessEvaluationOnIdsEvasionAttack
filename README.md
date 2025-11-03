@@ -2,8 +2,8 @@
 
 ## Description
 Our project aims to build on the work of Ayub et al.(2020) and evaluate the robustness of using Jacobian-based Saliency Map Attack (JSMA) on machine learning-based intrution detection systems (IDS).<br>
-Ayub et al.(2020) trained a multilayer perceptrons-based IDS using the CIC-IDS 2017 and TRAbID 2017 datasets and performed JSMA on the model. The results showed significant drops in model performances, indicating the effectiveness of JSMA.<br>
-While this demonstrates the potential of the attack, the extent to which model complexity influences its success remains unclear. We aim to explore how robust JSMA can be on models with different complexity, extending prior work to evaluate its effectiveness under diverse model conditions.
+
+Ayub et al.(2020) trained a multilayer perceptrons-based IDS using the CIC-IDS 2017 and TRAbID 2017 datasets and performed JSMA on the model. The results showed significant drops in model performances, indicating the effectiveness of JSMA. While this demonstrates the potential of the attack, the extent to which model complexity influences its success remains unclear. We aim to explore how robust JSMA can be on models with different complexity, extending prior work to evaluate its effectiveness under diverse model conditions.
 
 Original work: [adversarial_ml_ids](https://github.com/TnTech-CEROC/adversarial_ml_ids/tree/master) <br>
 Original paper: [Model Evasion Attack on Intrusion Detection Systems using Adversarial Machine Learning](https://ahsanayub.github.io/files/Authors_Copy_Model_Evasion_Attack_on_Intrusion_Detection_Systems_using_Adversarial_Machine_Learning.pdf)
