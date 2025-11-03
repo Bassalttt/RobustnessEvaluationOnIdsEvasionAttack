@@ -11,20 +11,21 @@ Original paper: [Model Evasion Attack on Intrusion Detection Systems using Adver
 ## Our Work
 The project is carried out in 3 phases.
 
-Phase 1:
-The primary goal of the project is to experiment JSMA on models with different complexity. Therefore, during this phase, different models are built and attacked, from which the results are derived and recorded to observe if there is a trend in the change JSMA effectiveness.
+**Phase 1:**
+The primary goal of the project is to experiment JSMA on models with different complexity. Therefore, during this phase, different models are built and attacked, from which the results are derived and recorded to observe if there is a trend in the change of JSMA effectiveness.
 
-Phase 2:
+**Phase 2:**
 The orginal work by Ayub et al.(2020) used dataset CIC-IDS 2017, which contains substantial errors. To fix this, the [improved dataset](https://intrusion-detection.distrinet-research.be/CNS2022/index.html) published by Liu et al.(2022) is used.
 
-Phase 3:
+**Phase 3:**
 Any final adjustments to the project will be made in this phase.
 
 In addition, while reimplementing the original codebase from Ayub et al.(2020), we addressed several issues with imported packages, data preprocessing, and JSMA implementation:
-- TensorFlow is migrated from TF 1.x to TF 2.x, IBM’s Adversarial Robustness Toolbox (ART) is used to address compatibility problem in Google's Colab.
+- TensorFlow is migrated from TF 1.x to TF 2.x and IBM’s Adversarial Robustness Toolbox (ART) is used to address compatibility problem in Google's Colab.
 - The improved datasets are used in place of reimplementing experiments with CIC-IDS 2017 because the original data preprocessing code for CIC-IDS 2017 dataset does not match with the
 dataset.
 - Updated JSMA implementation using ART to address implementation inconsistencies and improve reproducibility.
 
 ## Working Environment
-<describe something ...>
+Google Colab
+(??)
