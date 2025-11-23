@@ -37,11 +37,13 @@ All numerical data are scaled to numbers between 0 and 1.
 1. The original MLP model includes two hidden layers with half of the feature number of neurons in each layer.:
 Model performance with the TRAbID 2017 dataset:
 ![Two-hidden-layer model trained with TRAbID 2017 dataset](img_TRAbID2017/MLP_mode_conf_matrix.png)
+
 After attack:
 ![Two-hidden-layer model trained with TRAbID 2017 dataset after attack](img_TRAbID2017/MLP_att.png)
 
 Model performance with the CIC-IDS 2017 improved dataset:
 ![Two-hidden-layer model trained with CIC-IDS 2017 improved dataset](img_csecicids2018/MLP_mode_conf_matrix.png)
+
 After attack:
 ![Two-hidden-layer model trained with CIC-IDS 2017 improved dataset after attack](img_csecicids2018/MLP_att.png)
 
@@ -49,11 +51,13 @@ After attack:
 2. MLP model with three hidden layers: 
 Model performance with the TRAbID 2017 dataset:
 ![Three-hidden-layer model trained with TRAbID 2017 dataset](img_TRAbID2017/3_hidden_layers_mode_conf_matrix.png)
+
 After attack:
 ![Two-hidden-layer model trained with TRAbID 2017 dataset after attack](img_TRAbID2017/3h_att.png)
 
 Model performance with the CIC-IDS 2017 improved dataset:
 ![Three-hidden-layer model trained with CIC-IDS 2017 improved dataset](img_csecicids2018/3_hidden_layers_mode_conf_matrix.png)
+
 After attack:
 ![Three-hidden-layer model trained with CIC-IDS 2017 improved dataset after attack](img_csecicids2018/3h_att.png)
 
@@ -61,11 +65,13 @@ After attack:
 3. MLP model with four hidden layers: 
 Model performance with the TRAbID 2017 dataset:
 ![Four-hidden-layer model trained with TRAbID 2017 dataset](img_TRAbID2017/4_hidden_layers_mode_conf_matrix.png)
+
 After attack:
 ![Four-hidden-layer model trained with TRAbID 2017 dataset after attack](img_TRAbID2017/4h_att.png)
 
 Model performance with the CIC-IDS 2017 improved dataset:
 ![Four-hidden-layer model trained with CIC-IDS 2017 improved dataset](img_csecicids2018/4_hidden_layers_mode_conf_matrix.png)
+
 After attack:
 ![Four-hidden-layer model trained with CIC-IDS 2017 improved dataset after attack](img_csecicids2018/4h_att.png)
 
@@ -73,33 +79,39 @@ After attack:
 4. MLP model with two hidden layer and 64 neurons in each layer
 Model performance with the TRAbID 2017 dataset:
 ![Modle with two-hidden-layer and 64 neurons trained with TRAbID 2017 dataset](img_TRAbID2017/2h64n_mode_conf_matrix.png)
+
 After attack:
 ![Modle with two-hidden-layer and 64 neurons trained with TRAbID 2017 dataset after attack](img_TRAbID2017/2h64n_att.png)
 
 Model performance with the CIC-IDS 2017 improved dataset:
 ![Modle with two-hidden-layer and 64 neurons trained with CIC-IDS 2017 improved dataset](img_csecicids2018/2h64n_mode_conf_matrix.png)
+
 After attack:
 ![Modle with two-hidden-layer and 64 neurons trained with CIC-IDS 2017 improved dataset after attack](img_csecicids2018/2h64n_att.png)
 
 
 5. MLP model with three hidden layer and 64 neurons in each layer
 ![Modle with three-hidden-layer and 64 neurons trained with TRAbID 2017 dataset](img_TRAbID2017/3h64n_mode_conf_matrix.png)
+
 After attack:
 ![Modle with three-hidden-layer and 64 neurons trained with TRAbID 2017 dataset after attack](img_TRAbID2017/3h64n_att.png)
 
 Model performance with the CIC-IDS 2017 improved dataset:
 ![Modle with three-hidden-layer and 64 neurons trained with CIC-IDS 2017 improved dataset](img_csecicids2018/3h64n_mode_conf_matrix.png)
+
 After attack:
 ![Modle with three-hidden-layer and 64 neurons trained with CIC-IDS 2017 improved dataset after attack](img_csecicids2018/3h64n_att.png)
 
 
 6. MLP model with four hidden layer and 64 neurons in each layer
 ![Modle with four-hidden-layer and 64 neurons trained with TRAbID 2017 dataset](img_TRAbID2017/4h64n_mode_conf_matrix.png)
+
 After attack:
 ![Modle with four-hidden-layer and 64 neurons trained with TRAbID 2017 dataset after attack](img_TRAbID2017/4h64n_att.png)
 
 Model performance with the CIC-IDS 2017 improved dataset:
 ![Modle with four-hidden-layer and 64 neurons trained with CIC-IDS 2017 improved dataset](img_csecicids2018/4h64n_mode_conf_matrix.png)
+
 After attack:
 ![Modle with four-hidden-layer and 64 neurons trained with CIC-IDS 2017 improved dataset after attack](img_csecicids2018/4h64n_att.png)
 
