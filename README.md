@@ -40,7 +40,7 @@ All numerical data are scaled to numbers between 0 and 1.
 ## Models and Results
 **1. The original MLP model includes two hidden layers with half of the feature number of neurons in each layer.**
 Model performance with the TRAbID 2017 dataset:<br>
-![Two-hidden-layer model trained with TRAbID 2017 dataset](img_TRAbID2017/MLP_mode_conf_matrix.png)
+![Two-hidden-layer model trained with TRAbID 2017 dataset](img_TRAbID2017/MLP_mode_conf_matrix.png.png)
 
 Attacked:<br>
 ![Two-hidden-layer model trained with TRAbID 2017 dataset after attack](img_TRAbID2017/MLP_att.png)
